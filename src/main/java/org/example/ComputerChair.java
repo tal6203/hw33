@@ -36,7 +36,7 @@ public class ComputerChair extends Chair {
              return forOnePic * numberOfChairs;
         }
         else {
-            return calculatePrice(numberOfChairs);
+            return getPrice() * numberOfChairs;
         }
     }
 }
