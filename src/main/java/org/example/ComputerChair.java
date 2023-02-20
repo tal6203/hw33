@@ -30,7 +30,7 @@ public class ComputerChair extends Chair {
     }
 
     public Float calculatePrice(int numberOfChairs) {
-        if (true == GetDiscount()) {
+        if (GetDiscount()) {
              Float calculationDiscount = (getPrice() * getDiscountAmount())/100;
              float forOnePic =  getPrice() - calculationDiscount;
              return forOnePic * numberOfChairs;
