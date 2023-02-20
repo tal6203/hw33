@@ -36,7 +36,7 @@ public class KitchenChair  extends Chair{
             return forOnePic * numberOfChairs;
         }
         else {
-            return calculatePrice(numberOfChairs);
+            return getPrice() * numberOfChairs;
         }
     }
     }
